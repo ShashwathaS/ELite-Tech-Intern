@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Place</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #5c7aea;
+            color: white;
+        }
+        header nav {
+            display: flex;
+            align-items: center;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        header .search-bar {
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+        }
+        header .hamburger-menu {
+            font-size: 20px;
+            cursor: pointer;
+            margin-left: 15px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #eef1ff;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .places {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .place {
+            margin: 15px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: white;
+            width: 250px;
+            text-align: center;
+        }
+        .place img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+            background-color: #5c7aea;
+            color: white;
+        }
+        footer a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dream Place</h1>
+        <nav>
+            <input type="text" class="search-bar" placeholder="Search...">
+            <span class="hamburger-menu">&#9776;</span>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Info</a>
+            <a href="#">Contact</a>
+        </nav>
+        <button>Log In</button>
+    </header>
+    <section class="hero">
+        <h1>Dream Place</h1>
+        <p>Life is too short, so explore and create moments with your loved ones.</p>
+    </section>
+    <section class="places">
+        <div class="place">
+            <img src="C:\Users\DELL\Downloads\PremMandir.jpg" alt="Vrindavan">
+            <h3>Vrindavan</h3>
+            <p>A holy city filled with devotion and serenity.</p>
+        </div>
+        <div class="place">
+            <img src="C:\Users\DELL\Downloads\kedaranath.jpg" alt="Kedarnath">
+            <h3>Kedarnath</h3>
+            <p>An awe-inspiring temple amidst the Himalayas.</p>
+        </div>
+        <div class="place">
+            <img src="C:\Users\DELL\Downloads\mysore palace.jpg" alt="Mysore Palace">
+            <h3>Mysore Palace</h3>
+            <p>A royal gem showcasing India's architectural glory.</p>
+        </div>
+        <div class="place">
+            <img src="C:\Users\DELL\Downloads\Udupi.jpg" alt="Udipi">
+            <h3>Udipi</h3>
+            <p>A coastal town renowned for its temples and cuisine.</p>
+        </div>
+    </section>
+    <footer>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </footer>
+</body>
+</html>
